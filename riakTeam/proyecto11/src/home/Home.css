@@ -1,0 +1,55 @@
+/* Home.css - Versión Minimalista */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  
+  .home-bon {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 400;
+  }
+  
+  .home-bon:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .home-bon:active {
+    background-color: #eee;
+  }
+  
+  /* Versión móvil */
+  @media (max-width: 768px) {
+    .home-container {
+      min-height: 60vh;
+      padding: 1.5rem;
+    }
+    
+    .home-title {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .home-bon {
+      padding: 0.7rem 1.8rem;
+    }
+  }

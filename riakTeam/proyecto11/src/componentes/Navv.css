@@ -1,0 +1,33 @@
+.nav {
+    background-color: #ffffff;
+    padding: 10px;
+    
+}
+
+
+.nav-lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    
+   
+    padding: 0;
+}
+
+.nav-i {
+    margin: 0 10px;
+    
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00ff0d;
+}
