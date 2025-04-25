@@ -1,0 +1,44 @@
+
+.api {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .volver-butt {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .api-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+  }
+  
+  
+  .api-info {
+    width: 100%;
+  }
+  
+  /* Título */
+  .api-titulo {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
